@@ -1,47 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Analysis Results</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <!-- Notification Banner -->
-        <div id="notification-banner" class="notification-banner" role="alert" aria-live="polite"></div>
-
-        <!-- Analysis Results Container -->
-        <div id="analysis-container" class="analysis-container">
-            <h2>Resume Analysis Results</h2>
-            <div class="results-content"></div>
-        </div>
-
-        <!-- Skills Section -->
-        <div id="skills-section" class="section">
-            <h3>Detected Skills</h3>
-            <div class="skills-list"></div>
-        </div>
-
-        <!-- Improvement Suggestions -->
-        <div id="suggestions-section" class="section">
-            <h3>Improvement Suggestions</h3>
-            <div class="suggestions-list"></div>
-        </div>
-
-        <!-- Job Match Score -->
-        <div id="match-score-section" class="section">
-            <h3>Job Match Score</h3>
-            <div class="score-display">
-                <div class="score-circle">
-                    <span class="score-value">0</span>
-                    <span class="score-percent">%</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-    <script src="test.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Resume Analysis Results</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
 </html>
